@@ -3,7 +3,8 @@
     --bg-dark:#141414;
     --card-bg:#1f1f1f;
     --text-color:#ffff;
-    --btn-color:#00ff88;
+    --btn-color:#21d357;
+    --color-logo: #11b37d;
 }
 *{
     margin:0;
@@ -28,7 +29,12 @@ body{
     font-weight: bold;
 }
 .logo span{
-    color: var(--btn-color);
+    color: var(--color-logo);
+}
+.destaque{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 nav ul{
     display:flex;
@@ -60,10 +66,13 @@ nav ul li a:hover{
     overflow: hidden;
     transition: transform 0.3 ease;
     border: 3px solid var(--text-color);
+    transition: 1s;
 }
+
 .game-card:hover{
     transform:  translateY(-10px);
-    border-color: var(--color-primary);
+    border-color: var(--color-logo);
+    
 }
 .game-card img{
     width: 100%;

@@ -9,47 +9,100 @@
 </head>
 <body>
  <header class="header">
-    <p class="logo">GAME<span>CITY</span></p>
+    <p class="logo">One<span>Bx</span></p>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Jogos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">JOGOS</a></li>
+            <li><a href="#">CONTATO</a></li>
         </ul>
     </nav>
     <div class="carrinho">
-        <span id="carrinho-contador">itens: 0</span>
+       <p>itens: <span id="carrinho-contador">0</span></p>
     </div>
 </header>
 <main class="container">
-    <h2>Jogos em Destaque</h2>
+    <h2 class="destaque">Jogos em Destaque</h2>
     <section class=" card"> 
         <div class="game-card">
-            <img src="./src/assets/img1.jpg" alt="Mario Bros">
+            <img src="./src/assets/imagem-resident-evil-requiem.webp" alt="Mario Bros">
             <div class="card-content">
-                <h3>Mario Bros</h3>
+                <h3>Residet Evil: Requien</h3>
                 <p class="preco"> R$250,00</p>
+                <button class="btn-comprar" >Comprar</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="./src/assets/imagem-dark-souls-2.webp" alt="Mario Bros">
+            <div class="card-content">
+                <h3>Dark Souls 2</h3>
+                <p class="preco"> R$89,00</p>
                 <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
             </div>
         </div>
         <div class="game-card">
-            <img src="./src/assets/img1.jpg" alt="Mario Bros">
+            <img src="./src/assets/imagem-the-last-of-us.jpg" alt="Mario Bros">
             <div class="card-content">
-                <h3>Mario Bros</h3>
-                <p class="preco"> R$250,00</p>
+                <h3>The Last of Us</h3>
+                <p class="preco"> R$120,00</p>
                 <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
             </div>
-        </div><div class="game-card">
-            <img src="./src/assets/img1.jpg" alt="Mario Bros">
+        </div>
+        <div class="game-card">
+            <img src="./src/assets/imagem-silent-hill-f.jpg" alt="Mario Bros">
             <div class="card-content">
-                <h3>Mario Bros</h3>
-                <p class="preco"> R$250,00</p>
+                <h3>Silent Hill f</h3>
+                <p class="preco"> R$200,00</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
+            </div>
+        </div>
+           <!-- sessão de jogos de ação  -->
+    </section>
+    <h2 class="destaque">Jogos de Ação</h2>
+    <section class="card">
+        <div class="game-card">
+            <img src="./src/assets/imagem-assassins-creed-rogue.jpg" alt="Mario Bros">
+            <div class="card-content">
+                <h3>Assassin's Creed Rogue</h3>
+                <p class="preco"> R$60,00</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="./src/assets/imagem-gta6.avif" alt="Mario Bros">
+            <div class="card-content">
+                <h3>Grand Thef Auto 6</h3>
+                <p class="preco"> R$380,00</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="./src/assets/imagem-the-last-of-us-2.jpg" alt="Mario Bros">
+            <div class="card-content">
+                <h3>The Last of Us 2</h3>
+                <p class="preco"> R$180,00</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="./src/assets/imagem-uncharted-4.jpg" alt="Mario Bros">
+            <div class="card-content">
+                <h3>Uncharted 4</h3>
+                <p class="preco"> R$90,00</p>
+                <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="./src/assets/imagem-watch-dogs.avif" alt="Mario Bros">
+            <div class="card-content">
+                <h3>Watch Dogs</h3>
+                <p class="preco"> R$100,00</p>
                 <button class="btn-comprar" onclick="adicionarCarrinho()">Comprar</button>
             </div>
         </div>
     </section>
 </main>
     <!-- js externo -->
-     <script> src="./src/js/script.js"</script>
+     <script src="./src/js/script.js"></script>
 </body>
 </html>
